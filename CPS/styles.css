@@ -1,0 +1,366 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+/* hero content for all pages */
+
+.herohome{
+    background: linear-gradient(#f2e9e4, #000, #f2e9e4);
+    height: 100vh;
+    width: 100%;
+    background-image: url(../CPS/photos/catlayingonlappsg.png);
+    background-size: cover;
+    background-position: center;
+    
+}   
+
+.heroserv{
+    background: linear-gradient(#f2e9e4, #000, #f2e9e4);
+    height: 100vh;
+    width: 100%;
+    background-image: url(../CPS/photos/sleepingcat.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}   
+
+.heronews{
+    background: linear-gradient(#f2e9e4, #000, #f2e9e4);
+    height: 100vh;
+    width: 100%;
+    background-image: url(../CPS/photos/catlookingup.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}   
+
+.herocats{
+    background: linear-gradient(#f2e9e4, #000, #f2e9e4);
+    height: 100vh;
+    width: 100%;
+    background-image: url(../CPS/photos/threecats.png);
+    background-size: cover;
+    background-position: center;
+    
+}   
+
+.heroadop{
+    background: linear-gradient(#f2e9e4, #000, #f2e9e4);
+    height: 100vh;
+    width: 100%;
+    background-image: url(../CPS/photos/paws.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}   
+
+
+/* hero content ends here for all pages */
+/* nav content begins */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: #f2e9e4; opacity: 0.8;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: #9a8c98;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #f2e9e4;
+    color: #9a8c98;
+    border: 2px solid;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 8px 10px;
+   
+}
+/* nav content ends */
+/* about content begins here */
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    align-content: center;
+    transform: translateY(-50%);
+}
+
+.content h2 {
+    color: white;
+    margin: 20px 0px 10px;
+    font-size: 55px;
+}
+
+.content h3 {
+    color: white;
+    margin: 5px;
+}
+
+.content p {
+    color: white;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.about {
+    background-color: #f2e9e4;
+}
+
+.section-title {
+    text-align: center;
+    color: #9a8c98;
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.section-title2 {
+    text-align: center;
+    color: #f2e9e4;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.smallsection-title {
+    text-align: center;
+    color: #9a8c98;
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+.about p {
+    color: #4a4e69
+}
+
+.about-text {
+    width: 550px;
+   
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.catonhelppage {
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* about content ends */
+/* footer content begins here */
+.footerform {
+    background-color: #9a8c98;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-text {
+    color: #f2e9e4;
+    width: 350px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 60px;
+}
+
+label {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: #f2e9e4;
+}
+
+button  {
+    border: solid 2px;
+    border-color:#f2e9e4;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 8px 10px;
+    background-color: transparent;
+    color: #f2e9e4;
+
+}
+
+.cell {
+    margin-left: 163px;
+    margin-bottom: 25px;
+}
+
+
+ #cell {
+    margin-left: 40px;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+}
+
+#fullname, #petID {
+    padding-bottom: 5px;
+}
+
+/* what happens here section */
+
+.events {
+    background-color: #f2e9e4;
+    
+}
+
+.boxes-container {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    margin: 20px;
+    align-items: center;
+    border: solid 2px;
+    background-color: #9a8c98;
+    border-radius: 10px;
+    border-color: #9a8c98;
+    margin-bottom: 60px;
+}
+
+.box h3, p {
+    color: #f2e9e4;
+    padding: 20px
+}
+
+.box h4 {
+    color: #f2e9e4;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+
+.box-photo {
+    border-radius: 18px;
+    width: 250px;
+    
+}
+
+/* sponsor section */
+
+.sponsors {
+    background-color: #9a8c98;
+}
+
+.s-container {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sbox {
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.sbox h3, p {
+    color: #f2e9e4;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.sbox-photo {
+    border-radius: 18px;
+    width: 150px;
+    height: 150px;
+    
+}
+/* ways to give section */
+
+.waystogive {
+    background-color: #f2e9e4;
+}
+
+.text-container {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-container p {
+    color:#4a4e69;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+/* lost and found */
+
+.lostandfound {
+    background-color: #f2e9e4;
+    
+}
+
+.profile-container {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cat-profile {
+    margin: 20px;
+    align-items: center;
+    border: solid 2px;
+    background-color: #9a8c98;
+    border-radius: 10px;
+    border-color: #9a8c98;
+    margin-bottom: 60px;
+}
+
+.cat-profile h3, p {
+    color: #f2e9e4;
+    padding: 20px;
+}
+
+
+.profile-photo {
+    border-radius: 18px;
+    width: 250px;
+    
+}
+
+.laf-text-container p {
+    color:#4a4e69;
+    margin: 15px;
+    margin-bottom: 30px;
+}
